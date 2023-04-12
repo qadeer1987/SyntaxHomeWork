@@ -1,0 +1,81 @@
+// we will write a code and the computer will do the testing for us
+
+What are variables?
+    - when we have to make a computer to do something for us, we have to provide them with instructions and data
+    - to store this data we need something that can help us store and retrieve that information when we need it.
+    - VARIABLES help us store this data.
+8 basic (primitive or oldest) types of variables:
+1) byte
+2) short
+3) int
+4) long
+5) float
+6) double
+7) char
+8) boolean
+
+Data types to store simple numbers:
+Whenever we have whole numbers (the numbers without the decimal parts) for example, 10, 50, 666, 829393 - we use
+the below data types:
+
+a) byte (-128 to 127); b) short (-32768 to 32767); c) int (-2147483648 to 2147483647); d) long
+
+We use 4 different types of data because it depends on the size of the number.
+We use byte and short only when we want to save memory - this was true when memory was very expensive.
+    - byte and short are used on things that do not have a lot of memory.
+
+However, as a tested we will be using "int" data type to store whole numbers.
+
+Data type to store floating point Number/decimal numbers:
+    - whenever we have to store floating numbers like 10.6, 2.3, -5.6, 0.0001 and etc. we use the below data types:
+
+    1) float 2) double
+
+    99% of the time double is used.
+
+Note:
+    All the primitive data types start with a lower case letter. (byte, short, int, long, float, double, char, boolean)
+    String is a advanced data type that's why it start with a capital letter.
+
+Data Type - is a mechanism that helps computers to store specific type of information and also helps it to perform
+calculation on that information.
+Variables - are just boxes/containers that are in your computers memory where the data is stored.
+
+Error message "Java reached end of point while parsing" - means the issue is with the "{ - }" curly brackets.
+
+Data type to store characters:
+    - char is the data type that we use to store the single characters like:
+     'a','Z','-','1','@' etc. (we can store emojis too)
+Data types to store True or False:
+    - boolean is used data type to store true/false is java.
+    For example: Is it raining=false
+                 Are you hungry=true
+Data types to store words:
+    We can use the "String" datat type store multiple characters together. For example:
+    "USA","New York", "i am startving and I mean it","2312323232455","*&^$%$", and single characters "A or "3".
+    String is a non-premitive datat type. In other words, it is an advanced data type. Since it is a
+    non-primitive data type that's why the first letter is always in the uppercase.
+Note:
+    1) All the primitive datat type start with lowercase letter like byte, short, int,
+    long, float, double, char, and boolena.
+    2) In Java, we follow two conventions to name class nad variables class:
+        First letter of all words is in uppercase:
+        Example; BooleanDemo and VaribleDemo
+     variables:
+     First letter of the first word is lower case but for the rest of the words we use the uppercase letter
+     for the first word.
+     - isItRaining
+     - myAge
+     - areYouHungry
+
+Rules about Variables:
+    1) We can't have a variable with the same name twice in a Java class or method. (Refer to the VariableDemo)
+    2) Java is caseSensitive, which means fir java, age and AGE are two totally different things.
+    3) We can update of a variable as many times as we want. (Refer to VariableDemo3 class.)
+    4) If we want to print multiple variable values in a single line then we can use String concatenation
+     (refer to StringConcatenationDemo)
+    5) We can't access a variable before declaring it.
+    6) We can't ask to print the value of something if we don't initialize it.
+
+
+
